@@ -27,4 +27,5 @@ debug: $(OBJ)
 .PHONY: clean
 
 clean:
-	rm -f $(DIST)/*.o $(NAME)
+	del $(DIST)\*.o /Q /F /S
+	del $(NAME).exe /Q
