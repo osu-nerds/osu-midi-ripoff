@@ -1,6 +1,7 @@
 # COMPILER FLAGS
 #CC=gcc
 NAME=main
+CFLAGS=-lwinmm
 
 # DIRS
 INCLUDE=include

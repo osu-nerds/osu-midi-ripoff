@@ -2,12 +2,12 @@
 #include <windows.h>
 
 
-
 int main()
 {
-    int inting = 0;
-    std::cout << "test" ;
-    std::cin >> inting;
+    unsigned int devCount = midiInGetNumDevs();
+    std::cout<< devCount;
+    std::cout<< "\n";
+    std::cin.get();
     return 0;
 }
 
